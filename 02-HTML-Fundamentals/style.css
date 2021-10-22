@@ -1,3 +1,37 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#main-body {
+  display: block;
+}
+
+body {
+  border-top: #10978c 5px solid;
+  font-family: sans-serif;
+}
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+nav {
+  font-size: 15px;
+}
+article {
+  margin-bottom: 60px;
+}
+.secend-header {
+  margin-bottom: 40px;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid#10978c;
+  border-bottom: 5px solid #10978c;
+  padding: 50px 0px;
+}
+
 h1,
 h2,
 h3,
@@ -5,18 +39,26 @@ h4,
 li,
 p {
   font-family: sans-serif;
+  color: #444;
+}
+h1,
+h2,
+h3 {
+  color: #1010ad;
 }
 h1 {
-  color: blue;
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
 }
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 h4 {
   font-size: 20px;
@@ -26,9 +68,19 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0px;
 }
 /* footer p {
   font-size: 16px;
@@ -47,4 +99,37 @@ li {
 .author-name {
   font-size: 18px;
   font-weight: bold;
+}
+.posts {
+  list-style: none;
+  list-style: square;
+}
+.posts a {
+  color: #10978c;
+}
+body {
+  background-color: rgb(221, 221, 221);
+}
+li:first-child {
+  font-weight: bolder;
+}
+li:last-child {
+  font-style: italic;
+}
+a:link {
+  color: rgb(169, 211, 207);
+  text-decoration: none;
+}
+a:visited {
+  color: #10978c;
+}
+a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline dotted red;
+}
+a:active {
+  color: black;
+  font-style: italic;
+  align-content: center;
 }
